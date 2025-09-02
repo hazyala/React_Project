@@ -3,15 +3,24 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Library from "./chp03/Library";
-import './chp03/Book.css'
+import Library from "./chp04/ConfirmDialog";
+import './chp04/Button.css'
+import './chp04/ConfirmDialog.css'
+import ConfirmDialogs from './chp04/ConfirmDialogs';
+import Clock from './chp04/Clock';
+import './chp04/Clock.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Library />
-  </React.StrictMode>
-);
+
+setInterval(()=>{
+    root.render(
+        <React.StrictMode>
+            <Clock />
+        </React.StrictMode>
+    );
+}, 1000)
+
+
 
 
 
