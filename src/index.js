@@ -10,13 +10,16 @@ import ConfirmDialogs from './chp04/ConfirmDialogs';
 import Clock from './chp04/Clock';
 import './chp04/Clock.css'
 import Comment from './chp05/exam01/Comment';
+import book from "./chp03/Book";
+import BookList from './chp05/example02/BookList';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(()=>{
     root.render(
         <React.StrictMode>
-            <Comment />
+            <BookList />
         </React.StrictMode>
     );
 }, 1000)
