@@ -9,13 +9,14 @@ import './chp04/ConfirmDialog.css'
 import ConfirmDialogs from './chp04/ConfirmDialogs';
 import Clock from './chp04/Clock';
 import './chp04/Clock.css'
+import Comment from './chp05/exam01/Comment';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 setInterval(()=>{
     root.render(
         <React.StrictMode>
-            <Clock />
+            <Comment />
         </React.StrictMode>
     );
 }, 1000)
