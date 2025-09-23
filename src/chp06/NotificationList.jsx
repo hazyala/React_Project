@@ -1,4 +1,5 @@
 import React from "react";
+import Notification from "./Notification";
 
 const reservedNotifications=[
     {
@@ -41,7 +42,7 @@ class NotificationList extends React.Component{
                 this.setState({
                     notifications: []
                 });
-                clearInterval(timer)
+                clearInterval(timer);
             }
         }, 2000);
 
@@ -59,7 +60,7 @@ class NotificationList extends React.Component{
             <div>
                 {
                     this.state.notifications.map((notification) =>{
-                        return<notification
+                        return <Notification
                             key={notification.id}
                             id={notification.id}
                             message={notification.message}
