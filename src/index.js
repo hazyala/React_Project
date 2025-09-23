@@ -11,18 +11,19 @@ import Clock from './chp04/Clock';
 import './chp04/Clock.css'
 import Comment from './chp05/exam01/Comment';
 import book from "./chp03/Book";
-import BookList from './chp05/example02/BookList';
-
+import BookList from './chp05/exam02/BookList';
+import Notification from "./chp06/Notification";
+import NotificationList from "./chp06/NotificationList";
+import Counter from "./chp07/exam01/Counter";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-setInterval(()=>{
     root.render(
         <React.StrictMode>
-            <BookList />
+            <Counter/>
         </React.StrictMode>
     );
-}, 1000)
+
 
 
 
