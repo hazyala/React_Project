@@ -4,7 +4,9 @@ import Button from "./Button";
 function ConfirmDialog(props) {
     return(
         <div className="div-background">
-            <p>{props.children}내용을 확인한 후 버튼을 눌러주세요.</p>
+            <p>
+                {props.children}내용을 확인한 후 버튼을 눌러주세요.
+            </p>
             <br/>
             <Button color='green'>확인</Button>&nbsp;
             <Button color='blue'>취소</Button>&nbsp;

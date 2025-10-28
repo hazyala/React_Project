@@ -4,16 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import Greeting from "./chp09/ex1/Greeting";
-import LogControl from "./chp09/ex2/LogControl";
-import MainPageWarning from "./chp09/ex3/MainPageWarning";
-import LandingPage from "./chp09/closing_ex/LandingPage";
+import AppNumberList from "./chp10/ex1/AppNumberList";
+import StudentAttendance from "./chp10/ex2/StudentAttendance";
+import StudentList from "./chp10/ex2/StudentAttendance";
+import AttendanceCard from "./chp10/ex3/AttendanceCard";
+import Apple from "./chp10/ex4/Apple";
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <LandingPage />
+            <AttendanceCard/>
         </React.StrictMode>
     );
 
