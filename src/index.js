@@ -4,18 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import AppNumberList from "./chp10/ex1/AppNumberList";
-import StudentAttendance from "./chp10/ex2/StudentAttendance";
-import StudentList from "./chp10/ex2/StudentAttendance";
-import AttendanceCard from "./chp10/ex3/AttendanceCard";
-import Apple from "./chp10/ex4/Apple";
+
+import FruitSelect from "./chp11/ex2/FruitSelect";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <AttendanceCard/>
+            <FruitSelect />
         </React.StrictMode>
     );
 
