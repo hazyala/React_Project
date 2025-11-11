@@ -73,6 +73,7 @@ const styles = {
         padding: '5px 15px',
         marginBottom: '20px',
         borderBottom: '3px solid #DA70D6',
+        borderRadius: '10px',
         textAlign: 'center',
         width: 'auto',
     },
