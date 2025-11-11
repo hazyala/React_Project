@@ -5,14 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-import FruitSelect from "./chp11/ex2/FruitSelect";
+import SignUp from "./chp11/SignUp";
+import ConfirmDialogs from "./chp04/ConfirmDialogs";
+import ConfrimBoilVerdict from "./chp12/ex1/ConfrimBoilVerdict";
+import ConfrimBoilVerdict_in_css from "./chp12/ex1/ConfrimBoilVerdict_in_css";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <FruitSelect />
+            <ConfrimBoilVerdict_in_css/>
         </React.StrictMode>
     );
 
