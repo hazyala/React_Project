@@ -5,14 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 
-import {DistanceConverter} from "./chp12/ex2/DistanceConverter";
+import Blocks from "./chp15/Blocks";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
     root.render(
         <React.StrictMode>
-            <DistanceConverter/>
+            <Blocks/>
         </React.StrictMode>
     );
 
